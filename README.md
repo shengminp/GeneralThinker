@@ -31,6 +31,7 @@ Environment setup instructions will be added later.
 The project directory is organized as follows:
 
 ```text
+
 .
 ├── datasets
 │   ├── general
@@ -117,8 +118,6 @@ For token-signal perturbation analysis, `--perturbation` supports:
 shuffle
 reverse
 ```
-
-The `--top_entropy_quantile` argument can be used to restrict modulation to high-entropy tokens.
 
 ### :hourglass_flowing_sand: Inference
 
