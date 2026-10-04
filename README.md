@@ -18,6 +18,12 @@ Clone the repository with:
 ```bash
 git clone https://github.com/shengminp/GeneralThinker.git
 cd GeneralThinker
+
+conda env create -f environment.yml
+conda activate grm
+
+python -m pip install uv==0.11.7
+uv pip install -r requirements.txt
 ```
 
 Environment setup instructions will be added later.
