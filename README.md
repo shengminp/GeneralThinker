@@ -41,7 +41,7 @@ The project directory is organized as follows:
 ├── results                                     # Saves generated results during inference
 ├── scripts
 │   ├── finetune.py                             # Handles GeneralThinker training
-│   └── generate.py                             # Handles generation and evaluation
+│   └── generate.py                             # Handles generation
 ├── src
 │   ├── __init__.py
 │   ├── config.py                               # Training and generation configurations
